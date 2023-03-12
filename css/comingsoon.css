@@ -1,0 +1,310 @@
+html,body{
+	
+}
+body {
+	
+}
+.comingsoon-overlay{
+	background-image: url('../images/sample.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    line-height: 1;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+.comingsoon-overlay-pattern {
+	background-color: rgba(44,62,80 , 0.6 );
+	background-image: url('../images/pattern.png');
+	background-position: center;
+	background-repeat: repeat;
+	line-height: 1;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	top: 0;
+	left: 0;
+}
+.wrap{
+	padding-top:0px;
+}
+.comingsoon{
+	position:relative;
+	z-index:10;
+	padding: 10px 40px;
+	margin: 0 auto;
+	max-width: 800px;
+}
+.comingsoon__logo{
+	text-align: center;
+	padding: 10px;
+}
+.comingsoon__heading{
+	margin-bottom:40px;
+}
+.comingsoon__heading h1{
+	color: #fff;
+	font-weight: 300;
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	margin: 0;	
+	line-height: 1.1;
+}
+.comingsoon__countdown{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.comingsoon__countdown-wrap{
+	
+}
+.comingsoon__countdown__item{
+	width: 25%;
+	padding: 0 20px 30px;
+	float: left;
+}
+.comingsoon__countdown__item__wrap{
+	height: 0px;
+	padding-bottom: 100%;
+	position: relative;	
+	width: 100%;
+}
+.clock-canvas {
+	background-color: rgba(255, 255, 255, .1);
+	border-radius: 50%;
+	height: 0px;
+	padding-bottom: 100%;
+}
+.label-canvas{
+	color: #fff;	
+	font-size: 30px;
+	font-weight: 300;	
+	transform:translate(0px, -50%);
+	-webkit-transform:translate(0px, -50%);
+	-moz-transform:translate(0px, -50%);
+	-o-transform:translate(0px, -50%);
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	width: 100%;
+}
+.label-canvas .value{
+	font-size: 40px;
+	margin: 5px;
+	line-height: 1;
+}
+.label-canvas .label{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.facebook-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.facebook-bg-hover:hover {
+  border-color: transparent;
+  background: #3b5998;
+  color: #fff;
+}
+.twitter-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.twitter-bg-hover:hover {
+  border-color: transparent;
+  background: #00aced;
+  color: #fff;
+}
+.google-plus-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.google-plus-bg-hover:hover {
+  border-color: transparent;
+  background: #dd4b39;
+  color: #fff;
+}
+.pinterest-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.pinterest-bg-hover:hover {
+  border-color: transparent;
+  background: #cb2027;
+  color: #fff;
+}
+.linkedin-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.linkedin-bg-hover:hover {
+  border-color: transparent;
+  background: #007bb6;
+  color: #fff;
+}
+.rss-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.rss-bg-hover:hover {
+  border-color: transparent;
+  background: #fab135;
+  color: #fff;
+}
+.instagram-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.instagram-bg-hover:hover {
+  border-color: transparent;
+  background: #517fa4;
+  color: #fff;
+}
+.github-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.github-bg-hover:hover {
+  border-color: transparent;
+  background: #4183c4;
+  color: #fff;
+}
+.behance-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.behance-bg-hover:hover {
+  border-color: transparent;
+  background: #1769ff;
+  color: #fff;
+}
+.stack-exchange-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.stack-exchange-bg-hover:hover {
+  border-color: transparent;
+  background: #366fb3;
+  color: #fff;
+}
+.tumblr-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.tumblr-bg-hover:hover {
+  border-color: transparent;
+  background: #32506d;
+  color: #fff;
+}
+.soundcloud-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.soundcloud-bg-hover:hover {
+  border-color: transparent;
+  background: #f50;
+  color: #fff;
+}
+.dribbble-bg-hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.dribbble-bg-hover:hover {
+  border-color: transparent;
+  background: #ea4c89;
+  color: #fff;
+}
+.comingsoon__newsletter__form__error{
+	color:#d9534f;
+	font-style: italic;
+	text-align: center;
+}
+.comingsoon__newsletter{
+	text-align: center;
+	padding: 5px 0;
+}
+.comingsoon__newsletter {
+    padding: 5px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.comingsoon__newsletter__form {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+}
+.comingsoon__newsletter__form label {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.comingsoon__newsletter__form input {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 35px;
+    padding: 5px;
+    width: 300px;
+   margin-bottom: 5px;
+}
+.comingsoon__newsletter__form button {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 35px;
+    padding: 0 10px;
+}
+.comingsoon__social{
+	text-align: center;
+	padding: 5px 0;
+}
+.comingsoon__social a i{
+	color:#fff;
+	border: 1px solid;
+	border-radius: 100%;
+	font-size: 20px;
+	height: 40px;
+	line-height:40px;
+	text-align: center;
+	width: 40px;
+	margin:5px;
+}
+@media (max-width: 767px) {
+	.comingsoon{
+		padding: 20px;
+	}
+	.comingsoon__countdown__item{
+		width: 50%;
+	}
+	.label-canvas .value{
+		font-size: 28px;
+	}
+	.label-canvas .label{
+		font-size: 12px;
+	}
+}
+
